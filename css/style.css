@@ -37,7 +37,7 @@ body{
     font-size: 40px;
     margin: 0 0 24px;
     color: #343A40;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 .banner-left-container h1 span{
@@ -147,22 +147,130 @@ body{
     width: 90%;
 }
 
-.services .section-title{
-    text-align: center;
-    margin-top: 90px;
+.services{
+    padding: 80px 0;
+    background-color: #f8fafe;
 }
 
-.services .section-title .service-simple{
+.services .section-title{
+    text-align: center;
+}
+
+.services .section-title h5{
+    font-size: 14px;
+    color: #2F55D4;
+    margin: 0 0 8px;
+}
+.services .section-title h4{
+    font-size: 21px;
+    color: #343A40;
+    margin: 0 0 17px;
+}
+
+.services .section-title p{
     margin-bottom: 48px;
+    color: #A0A9B1;
+    line-height: 1.8;
 }
 
 .services .section-content{
-    margin: 16px 0 0;
+    margin: 25px 0 0;
+    text-align: center;
 }
 .services .section-content .service-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .services .section-content .service-item{
-    flex-basis: 25%;
+    flex-basis: 33%;
+    margin: 27px 0 0;
+}
+
+.services .section-content i{
+    font-size: 25px;
+    color: #2F55D4;
+    background-color: rgba(47,85,212,.1);
+    margin-bottom: 24px;
+    padding: 14px 16px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.services .section-content h4{
+    font-size: 18px;
+    color: #343A40;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.services .section-content p{
+    font-size: 15px;
+    color: #A0A9B1;
+    line-height: 1.8;
+    margin-bottom: 50px;
+}
+
+.services .section-content a{
+    background-color: #34d1bf;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 13px 18px;
+    text-decoration: none;
+    border-radius: 7px;
+    box-shadow: 0 8px 14px rgba(52,209,191,.2);
+}
+
+.team{
+    padding: 80px 0;
+    background-color: #2f55d4;
+}
+.team .team-title{
+    text-align: center;
+    margin-bottom: 48px;
+    padding: 0 15px;
+}
+
+.team .team-title h4{
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.team .team-title p{
+    font-size: 15px;
+    line-height: 1.8;
+    color: hsla(0,0%,100%,.5);
+    margin-bottom: 16px;
+}
+
+.team .team-content{
+    text-align: center;
+}
+
+.team .team-content .team-bucket{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15px;
+}
+.team .team-content .team-element i{
+    font-size: 35px;
+    color: #34D1BF;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+.team .team-content .team-element h2{
+    font-size: 32px;
+    color: #fff;
+    margin: 24px 0 8px;
+}
+
+.team .team-content .team-element p{
+    font-size: 16px;
+    color: hsla(0,0%,100%,.5);
+    margin-bottom: 16px;
+    line-height: 1.8;
 }
