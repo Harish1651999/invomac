@@ -14,7 +14,8 @@ body{
 
 .banner-container{
     display: flex;
-    padding: 270px 0 170px;
+    padding: 150px 0 170px;
+    align-items: center;
 }
 
 .banner-left-container{
@@ -84,12 +85,12 @@ body{
 }
 
 .banner-right-container .banner-welcome{
-    line-height: 1.8;
+    line-height: 1.5;
     text-align: center;
 }
 
-.banner-right-container h4{
-    font-size: 20px;
+.banner-right-container h5{
+    font-size: 24px;
 }
 
 .banner-right-container .banner-trail{
